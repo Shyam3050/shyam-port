@@ -1,37 +1,284 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>shyam-Dev</title>
-    <!-- css style -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <!-- google font link -->
+    <title>shyam3050 portfolio</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon">
+    <meta name="title" content="portfolio of shyam3050" />
+    <meta
+      name="description"
+      content="this is a portfolio of shyam3030 known as shyamsundar. A software engineer"
+    />
+    <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- material icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <h1>Comeing soon</h1>
-    <!--
-    - custom js link
-  -->
-    <script src="./assets/js/script.js"></script>
+    <header class="topbar">
+      <a href="#" class="logo">
+        <img
+          src="./assets/images/Logo_dark.png"
+          alt="shyam3050 logo"
+          width="145"
+          height="32"
+          class="dark"
+        />
+        <img
+          src="./assets/images/Logo_light.png"
+          alt="shyam3050 logo"
+          width="145"
+          height="32"
+          class="light"
+        />
+      </a>
+      <button class="icon-btn theme-btn" data-theme-btn>
+        <span class="material-symbols-outlined dark" aria-hidden="true">
+          dark_mode
+        </span>
 
-    <!--
-    - ionicon link
-  -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+        <span class="material-symbols-outlined light" aria-hidden="true">
+          light_mode
+        </span>
+        <div class="state-layer"></div>
+      </button>
+    </header>
+    <main>
+    
+      <article>
+        <!-- hero -->
+        <section class="section hero">
+          <div class="container">
+            <figure
+              class="hero-banner img-holder"
+              style="--width: 240; --height: 240"
+            >
+              <img
+                src="./assets/images/profile_dark.png"
+                width="240"
+                height="240"
+                alt="shyamsundar pic shyam3050"
+                class="img-cover dark"
+              />
+              <img
+                src="./assets/images/profile_light.png"
+                width="240"
+                height="240"
+                alt="shyamsundar pic shyam3050"
+                class="img-cover light"
+              />
+            </figure>
+            <div class="hero-content">
+              <span class="label-large section-subtitle">Software Engineer</s>
+                <h1 class="display-small">Shyam sundar</h1>
+                <p class="body-large section-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, cum.
+                </p>
+                 
+                <div class="btn-wrapper">
+                  <a href="mailto:nimmanashyam3050@gmail.com" class="chip">
+                    <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                    <span class="label-large">nimmanashyam3050@gmail.com</span>
+                    <div class="state-layer"></div>
+                  </a>
+                  <a href="tel:+919668221451" class="chip">
+                    <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                    <span class="label-large">+91 9668221451</span>
+                    <div class="state-layer"></div>
+                  </a>
+                </div>
+                <div class="btn-wrapper-social">
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <img src="./assets/images/github.png" alt=""  class="icon " width="28" height="28">
+                      <a href="#" class="state-layer"></a>
+                    </li>
+                    <li class="social-item">
+                      <img src="./assets/images/linkedin.png" alt=""  class="icon " width="28" height="28">
+                      <a href="#" class="state-layer"></a>
+                    </li>
+                    <li class="social-item">
+                      <img src="./assets/images/twitter.png" alt=""  class="icon " width="28" height="28">
+                      <a href="#" class="state-layer"></a>
+                      
+                    </li>
+                  </ul>
+                 </div>
+            </div>
+          </div>
+        </section>
+        <!-- about -->
+        <div class="article">
+          <div class="about-card">
+            <h2 class="card-title title-medium">About</h2>
+            <p class="body-medium card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ducimus?
+            </p>
+            <ul class="about-list">
+              <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                <span class="label-medium">Hyderabad, India</span>
+              </li>
+              <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true"> work </span>
+
+                <span class="label-medium">SB Labs, Remote Freelance</span>
+              </li>
+              <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+                <span class="label-medium"><a href="https://apdegreepapers.com">apdegreepapers.com</a></span>
+              </li>
+            </ul>
+          </div>
+            <!-- tabs -->
+     <div>
+      <div class="primary-tabs">
+        <!-- <button class="tab-btn active"data-tab-btn= "contact">
+          <span class="tab-text title-small">Contact</span>
+          <div class="state-layer"></div>
+        </button> -->
+        <button class="tab-btn active "data-tab-btn= "resume">
+          <span class="tab-text title-small">Resume</span>
+          <div class="state-layer"></div>
+        </button>
+        <button class="tab-btn "data-tab-btn= "project">
+          <span class="tab-text title-small">Projects</span>
+          <div class="state-layer"></div>
+        </button>
+      </div>
+<!-- resume -->
+<section class="section tab-content resume-tab active" data-tab-content="resume">
+  <div class="container">
+    <h2 class="section-title title-small">Experience</h2>
+    <ul class="list">
+      <li class="resume-item">
+        <div class="resume-card">
+          <p class="body-large">Software Engineer, Sb labs </p>
+          <span class="label-medium card-subtitle ">2024 - present</span>
+          <span class="body-medium card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, expedita!</span> <span class="body-medium card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, expedita!</span>
+        </div>
+      </li>
+    </ul>
+    <h2 class="section-title title-small">Education</h2>
+    <ul class="list">
+      <li class="resume-item"><div class="resume-card"><p class="body-large">Bachelor in computer science, DR BR Ambedkar university.</p>
+      
+        <span class="label-medium card-subtitle">2021 - 2024</span>
+      </div></li>
+    </ul>
+    <h2 class="section-title title-small">
+      skills and Technologies
+    </h2>
+    <ul class="resume-bottom-list">
+      <li class="resume-bottom-item">
+        <img src="./assets/images/react.js.svg" alt="html" class="icon" loading="lazy" width="28" height="28">
+        <span class="label-medium">React.js</span>
+        <div class="state-layer"></div>
+        <span class="tooltip">80%</span>
+      </li>
+      <li class="resume-bottom-item">
+        <img src="./assets/images/javascript.svg" alt="html" class="icon" loading="lazy" width="28" height="28">
+        <span class="label-medium">JavaScript</span>
+        <div class="state-layer"></div>
+        <span class="tooltip">90%</span>
+      </li>
+      <li class="resume-bottom-item">
+        <img src="./assets/images/react.js.svg" alt="html" class="icon" loading="lazy" width="28" height="28">
+        <span class="label-medium">React Native</span>
+        <div class="state-layer"></div>
+        <span class="tooltip">70%</span>
+      </li>
+      <li class="resume-bottom-item">
+        <img src="./assets/images/node.js.svg" alt="html" class="icon" loading="lazy" width="28" height="28">
+        <span class="label-medium">Node.js</span>
+        <div class="state-layer"></div>
+        <span class="tooltip">60%</span>
+      </li>
+      <li class="resume-bottom-item">
+        <img src="./assets/images/mongoDB.svg" alt="html" class="icon" loading="lazy" width="28" height="28">
+        <span class="label-medium">MongoDB</span>
+        <div class="state-layer"></div>
+        <span class="tooltip">60%</span>
+      </li>
+      <li class="resume-bottom-item">
+        <img src="./assets/images/html5.svg" alt="html" class="icon" loading="lazy" width="28" height="28">
+        <span class="label-medium">Html</span>
+        <div class="state-layer"></div>
+        <span class="tooltip">90%</span>
+      </li>
+      <li class="resume-bottom-item">
+        <img src="./assets/images/css3.svg" alt="html" class="icon" loading="lazy" width="28" height="28">
+        <span class="label-medium">Css</span>
+        <div class="state-layer"></div>
+        <span class="tooltip">75%</span>
+      </li>
+      <li class="resume-bottom-item">
+        <img src="./assets/images/github.svg" alt="html" class="icon" loading="lazy" width="28" height="28">
+        <span class="label-medium">GitHub</span>
+        <div class="state-layer"></div>
+        <span class="tooltip">80%</span>
+      </li>
+      <li class="resume-bottom-item">
+        <img src="./assets/images/VS_code.svg" alt="html" class="icon" loading="lazy" width="28" height="28">
+        <span class="label-medium">VS Code</span>
+        <div class="state-layer"></div>
+        <span class="tooltip">90%</span>
+      </li>
+    </ul>
+  </div>
+</section>
+      <!-- projects -->
+      <section class="section tab-content " data-tab-content="project"
+      >
+    
+      <div class="container">
+        <div class="project-list">
+          <div class="card">
+            <figure class="card-banner img-holder" style="--width: 334; --height:180">
+            <img src="./assets/images/project-1.png" alt="" class="img-cover" width="334" height="180"></figure>
+            <div class="card-content">
+              <span class="label-large card-title">Web App</span>
+              <h3 class="title-large card-subtitle">Pixastock - Stock App</h3>
+            </div>
+            <a href="#" class="state-layer"></a>
+          </div>
+          <!-- card2 -->
+          <div class="card">
+            <figure class="card-banner img-holder" style="--width: 334; --height:180">
+            <img src="./assets/images/project-1.png" alt="" class="img-cover" width="334" height="180"></figure>
+            <div class="card-content">
+              <span class="label-large card-title">Web App</span>
+              <h3 class="title-large card-subtitle">Pixastock - Stock App</h3>
+            </div>
+            <a href="#" class="state-layer"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+     </div>
+        </div>
+       
+        
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="body-medium">Copyright 2024. All right reserved by shyam sundar</p>
+      </div>
+    </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
