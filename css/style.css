@@ -317,6 +317,11 @@ body {
 .resume-bottom-item:hover .tooltip {
   visibility: visible;
 }
+.download_btn {
+  display: flex;
+  align-items: center;
+  padding-inline: 10px;
+}
 /*-----------------------------------*\
   #COMPONENT
 \*-----------------------------------*/
